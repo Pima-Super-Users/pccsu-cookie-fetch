@@ -12,10 +12,6 @@ def exportAsCSV(cookies):
         for data in cookies:
             dict_writer.writerow(data)
 
-
-def newMain():
-    print(config.cookiesNeeded[3])
-
 def main():
     browser = webdriver.Chrome('chromedriver.exe') #Download this seperately
     url = "https://pima.campuslabs.com/engage/" #URL
